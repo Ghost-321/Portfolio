@@ -7,7 +7,7 @@ class Header extends HTMLElement {
     this.innerHTML = `
       <header>
         <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
-        <h1><a class="navbar-brand" href="/">Your Name</a></h1>
+        <h1><a class="navbar-brand" href="/">Jonathan Morel</a></h1>
         <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -31,10 +31,11 @@ class Header extends HTMLElement {
             <li class="nav-item mr-2">
               <a class="nav-link" href="/pages/projects.html">Projects</a>
             </li> 
+            <!--
             <li class="nav-item mr-2">
               <a class="nav-link" href="/pages/publications.html">Publications</a>
             </li>
-            <li class="nav-item mr-2">
+            <li class="nav-item mr-2"> 
               <a class="nav-link" href="/pages/blogposts.html">Blogs</a>
             </li>
           </ul>

@@ -27,4 +27,16 @@ a:hover {
     /* font-size:1.3rem !important; */
 }
 
+.skill-icons img {
+  height: 40px;  /* or 60px for bigger */
+  margin: 10px 15px;
+  transition: transform 0.2s;
+}
+.skill-icons img:hover {
+  transform: scale(1.15);
+}
+
+
+
+
 /* body > div > ol:nth-child(7) > li > button > a */

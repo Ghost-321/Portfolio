@@ -14,194 +14,268 @@
     <link href="/assets/css/education.css" rel="stylesheet">
     <link rel="stylesheet" href="/assets/css/fontawesome651.all.min.css">
 
-    <!-- Google Fonts CSS -->
+    <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap"
         rel="stylesheet">
 
-
-
+    <!-- Tiny, safe tightening for dot-points (keeps your layout) -->
+    <style>
+        /* compact bullets without changing card/grid structure */
+        li.compact-li { margin-bottom: 4px; line-height: 1.3; }
+        .activity-lemos { line-height: 1.35; margin-bottom: 6px; }
+        .activity-names { font-weight: 600; }
+        /* make two-column lists feel aligned on small screens */
+        @media (max-width: 767.98px) {
+            .pl-4.compact-li { padding-left: 1.0rem !important; }
+        }
+    </style>
 </head>
 
 <body>
-
-
 
     <div id="page-container">
         <header-component></header-component>
         <div class="container mt-4" id="content-wrap">
             <h5 class="mb-4"><b>__ Education ________________</b></h5>
 
+            <!-- ===================== UTS (Honours) ===================== -->
             <div class="card">
                 <div class="card-body">
                     <div class="row mt-2">
                         <div class="col-md-2 text-center">
-                            <img class="card-img-top" src="/assets/img/education/uni_logo_1.jpg" alt="Card image">
-
+                            <img class="card-img-top" src="/assets/img/education/uni_logo_1.jpg" alt="UTS Logo">
                         </div>
                         <div class="col-md-10">
-                            <h4 class="card-title mt-3 mt-md-0 mb-0 text-center text-md-left">University Name</h4>
-                            <h6 class="small-lemos text-center text-md-left"><span
-                                    class="span-lemos pr-2">Address</span> (Present - Month Year)</h6>
-                            <h6 class="card-subtitle mt-2 text-center text-md-left mb-3">M.Sc./Ph.D. in Computer
-                                Science</small></h6>
+                            <h4 class="card-title mt-3 mt-md-0 mb-0 text-center text-md-left">University of Technology Sydney (UTS)</h4>
+                            <h6 class="small-lemos text-center text-md-left">
+                                <span class="span-lemos pr-2">Sydney, NSW</span> (Jan 2022 - Nov 2025)
+                            </h6>
+                            <h6 class="card-subtitle mt-2 text-center text-md-left mb-3">
+                                Bachelor of Computing Science (Honours) — Data Analytics & AI
+                            </h6>
+
                             <p class="card-text mt-2 text-justify">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum pulvinar lacinia dui
-                                pulvinar gravida. Maecenas rhoncus felis sit amet euismod porta. Vivamus id ante
-                                eleifend, porta arcu ac, egestas libero. Nulla facilisi. Fusce sit amet diam sit amet
-                                dui tincidunt imperdiet. Aenean eget fermentum nulla. Duis lacinia blandit turpis quis
-                                viverra. In eleifend consequat lectus, et aliquet ipsum ultricies id. Integer hendrerit
-                                et felis id blandit. In nec blandit quam.
+                                Honours graduate specialising in applied AI and analytics. Research across zero-shot learning and
+                                medical image super-resolution for diabetic retinopathy, plus AI-driven predictive maintenance for
+                                telecommunications infrastructure (TRU × Amplitel). Delivered workshops on generative AI, Copilot and
+                                workflow automation; confident with Python, TensorFlow/PyTorch, MLOps and cloud.
                             </p>
-                            <p class="mt-0 pt-0"><b>Supervisor :</b> Name </p>
-                            <p><b>Core Courses :</b>
+
+                            <p class="mt-0 pt-0"><b>Supervisor :</b> Dr Maoying Qiao</p>
+
+                            <p><b>Core Courses :</b></p>
                             <div class="row">
                                 <div class="col-12 col-md-5">
-                                    <li class="pl-4">Course 1</li>
+                                    <li class="pl-4 compact-li">Machine Learning</li>
                                 </div>
                                 <div class="col-12 col-md-6">
-                                    <li class="pl-4">Course 2</li>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-12 col-md-5">
-                                    <li class="pl-4">Course 3</li>
-                                </div>
-                                <div class="col-12 col-md-6">
-                                    <li class="pl-4">Course 4</li>
+                                    <li class="pl-4 compact-li">Natural Language Processing</li>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-12 col-md-5">
-                                    <li class="pl-4">Course 5</li>
+                                    <li class="pl-4 compact-li">Compsci Research</li>
                                 </div>
                                 <div class="col-12 col-md-6">
-                                    <!-- <li class="pl-4"></li>  -->
-                                </div>
-                            </div>
-                            </p>
-                            <p><b>Activities :</b>
-                            <div class="row">
-                                <div class="col-12">
-                                    <ul class="pb-0 mb-1">
-                                        <li class="activity-lemos"><span class="activity-names">Activity 1 :</span> <a
-                                                href="" target="_blank">Reference Link</a></li>
-                                    </ul>
+                                    <li class="pl-4 compact-li">Deep Learning & Convultional Neural Networks</li>
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="col-12">
-                                    <ul class="pb-0 mb-1">
-                                        <li class="activity-lemos"><span class="activity-names">Activity 2 :</span> <a
-                                                href="" target="_blank">Reference Link</a> </li>
-                                    </ul>
+                                <div class="col-12 col-md-5">
+                                    <li class="pl-4 compact-li">Advanced Topics in Computer Vision</li>
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <li class="pl-4 compact-li">Image and Pattern Recognition</li>
                                 </div>
                             </div>
+
+                            <p class="mt-3"><b>Activities :</b></p>
+
                             <div class="row">
                                 <div class="col-12">
                                     <ul class="pb-0 mb-1">
-                                        <li class="activity-lemos"><span class="activity-names">Activity 3 :</span> <a
-                                                href="" target="_blank">Reference Link</a> </li>
+                                        <li class="activity-lemos">
+                                            <span class="activity-names">TRU × Amplitel Research:</span>
+                                            Telecom tower health index; NLP tagging of maintenance records; KML/QGIS visualisation.
+                                        </li>
                                     </ul>
                                 </div>
                             </div>
-                            </p>
+
+                            <div class="row">
+                                <div class="col-12">
+                                    <ul class="pb-0 mb-1">
+                                        <li class="activity-lemos">
+                                            <span class="activity-names">Hackathons & Showcases:</span>
+                                            Winner, <b>Chaos1 Hackathon</b> (solved a $20M military logistics problem). Winner,
+                                            <b>UTS Techfest AI Showcase 2024</b>. Invited & won <b>UTS Techfest 2025</b> showcase with Chaos1 project.
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-12">
+                                    <ul class="pb-0 mb-1">
+                                        <li class="activity-lemos">
+                                            <span class="activity-names">Workshops & Teaching:</span>
+                                            AI development workshops for students, start-ups and a major hedge fund (ChatGPT/Copilot, privacy, automation).
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
 
                         </div>
                     </div>
                 </div>
             </div>
 
+            <!-- ===================== Certifications & Training ===================== -->
             <div class="mt-3 card">
                 <div class="card-body">
                     <div class="row mt-2">
                         <div class="col-md-2 text-center">
-                            <img class="card-img-top" src="/assets/img/education/uni_logo_2.jpg" alt="Card image">
-
+                            <img class="card-img-top" src="/assets/img/education/uni_logo_2.jpg" alt="Certifications">
                         </div>
                         <div class="col-md-10">
-                            <h4 class="card-title mt-3 mt-md-0 mb-0 text-center text-md-left">University Name</h4>
-                            <h6 class="small-lemos text-center text-md-left"><span
-                                    class="span-lemos pr-2">Address</span> (End_Month Year - Start_Month Year)</h6>
-                            <h6 class="card-subtitle mt-2 text-center text-md-left mb-3">B.Sc. in Computer
-                                Science</small></h6>
+                            <h4 class="card-title mt-3 mt-md-0 mb-0 text-center text-md-left">Certifications & Training</h4>
+                            <h6 class="small-lemos text-center text-md-left">
+                                <span class="span-lemos pr-2">Sydney & Online</span> (2023 - 2025)
+                            </h6>
+                            <h6 class="card-subtitle mt-2 text-center text-md-left mb-3">Short courses, workshops, and industry programs</h6>
+
                             <p class="card-text mt-2 text-justify">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum pulvinar lacinia dui
-                                pulvinar gravida. Maecenas rhoncus felis sit amet euismod porta. Vivamus id ante
-                                eleifend, porta arcu ac, egestas libero. Nulla facilisi. Fusce sit amet diam sit amet
-                                dui tincidunt imperdiet. Aenean eget fermentum nulla. Duis lacinia blandit turpis quis
-                                viverra. In eleifend consequat lectus, et aliquet ipsum ultricies id. Integer hendrerit
-                                et felis id blandit. In nec blandit quam.
+                                Practical, industry-aligned learning across computer vision, resilience and modern AI tooling,
+                                complementing Honours research and applied consulting work.
                             </p>
-                            <p class="mt-0 pt-0"><b>Supervisor :</b> Name </p>
-                            <p><b>Core Courses :</b>
+
+                            <p><b>Core Courses :</b></p>
                             <div class="row">
-                                <div class="col-12 col-md-5">
-                                    <li class="pl-4">Course 1</li>
+                                <div class="col-12 col-md-6">
+                                    <li class="pl-4 compact-li">Hugging Face Computer Vision Course (Units 1–13)</li>
+                                    <li class="pl-4 compact-li">System Resilience Workshop — Prof. Asif Gill</li>
+                                    <li class="pl-4 compact-li">SAS Viya (UTS subject, ML & analytics)</li>
+                                    <li class="pl-4 compact-li">LaTeX/Overleaf for research writing</li>
                                 </div>
                                 <div class="col-12 col-md-6">
-                                    <li class="pl-4">Course 2</li>
+                                    <li class="pl-4 compact-li">Microsoft Reactor AI/ML Workshops</li>
+                                    <li class="pl-4 compact-li">Microsoft Summer Bootcamp 2025 (AI, Copilot, Fabric, Defender XDR)</li>
+                                    <li class="pl-4 compact-li">Industry-led NLP & Vision seminars</li>
                                 </div>
                             </div>
-                            <div class="row">
-                                <div class="col-12 col-md-5">
-                                    <li class="pl-4">Course 3</li>
-                                </div>
-                                <div class="col-12 col-md-6">
-                                    <li class="pl-4">Course 4</li>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-12 col-md-5">
-                                    <li class="pl-4">Course 5</li>
-                                </div>
-                                <div class="col-12 col-md-6">
-                                    <!-- <li class="pl-4"></li>  -->
-                                </div>
-                            </div>
-                            </p>
-                            <p><b>Activities :</b>
+
+                            <p class="mt-3"><b>Activities :</b></p>
+
                             <div class="row">
                                 <div class="col-12">
                                     <ul class="pb-0 mb-1">
-                                        <li class="activity-lemos"><span class="activity-names">Activity 1 :</span> <a
-                                                href="" target="_blank">Reference Link</a></li>
+                                        <li class="activity-lemos">
+                                            <span class="activity-names">AI Workshop Facilitator:</span>
+                                            Generative AI, Copilot, privacy and automation best practice.
+                                        </li>
                                     </ul>
                                 </div>
                             </div>
+
                             <div class="row">
                                 <div class="col-12">
                                     <ul class="pb-0 mb-1">
-                                        <li class="activity-lemos"><span class="activity-names">Activity 2 :</span> <a
-                                                href="" target="_blank">Reference Link</a> </li>
+                                        <li class="activity-lemos">
+                                            <span class="activity-names">Industry Showcase:</span>
+                                            Document Sage (LLM FAQ), Disaster Assist Drone (segmentation + GUI).
+                                        </li>
                                     </ul>
                                 </div>
                             </div>
+
                             <div class="row">
                                 <div class="col-12">
                                     <ul class="pb-0 mb-1">
-                                        <li class="activity-lemos"><span class="activity-names">Activity 3 :</span> <a
-                                                href="" target="_blank">Reference Link</a> </li>
+                                        <li class="activity-lemos">
+                                            <span class="activity-names">Research Track:</span>
+                                            CLIP/MedCLIP baselines and Swin-FSR/SRCNN benchmarks for DR imaging.
+                                        </li>
                                     </ul>
                                 </div>
                             </div>
-                            </p>
 
                         </div>
                     </div>
                 </div>
             </div>
 
+            <!-- ===================== Research Projects & Publications ===================== -->
+            <div class="mt-3 card">
+                <div class="card-body">
+                    <div class="row mt-2">
+                        <div class="col-md-2 text-center">
+                            <img class="card-img-top" src="/assets/img/education/uni_logo_3.jpg" alt="Research">
+                        </div>
+                        <div class="col-md-10">
+                            <h4 class="card-title mt-3 mt-md-0 mb-0 text-center text-md-left">Research Projects & Publications</h4>
+                            <h6 class="small-lemos text-center text-md-left">
+                                <span class="span-lemos pr-2">Academic & Industry Research</span> (Selected)
+                            </h6>
+                            <h6 class="card-subtitle mt-2 text-center text-md-left mb-3">Medical imaging, telecommunications analytics, and applied AI</h6>
 
-            <!-- <h5 class="my-5"><b>__ Certifications _____________________</b></h5>
+                            <p class="card-text mt-2 text-justify">
+                                Research portfolio spanning medical image analysis, zero-shot learning, super-resolution,
+                                and infrastructure analytics. Work emphasises clinical relevance, efficient models, and
+                                decision-support visualisation for industry stakeholders.
+                            </p>
 
+                            <p class="mt-2"><b>Highlights :</b></p>
+
+                            <div class="row">
+                                <div class="col-12">
+                                    <ul class="pb-0 mb-1">
+                                        <li class="activity-lemos">
+                                            <span class="activity-names">Medical Imaging Research (Retina):</span>
+                                            Zero-Shot Learning + Super-Resolution for diabetic retinopathy; lesion-aware pipelines,
+                                            CLIP/MedCLIP baselines, Swin-FSR/SRCNN benchmarks, dataset EDA (APTOS, EyePACS, Messidor-2).
+                                        </li>
+                                        <li class="activity-lemos">
+                                            <span class="activity-names">Kidney & Brain Vascular Mapping:</span>
+                                            Hybrid CNN/Transformer methods for vascular structure analysis; data augmentation and
+                                            clinical alignment; emphasis on computational efficiency.
+                                        </li>
+                                        <li class="activity-lemos">
+                                            <span class="activity-names">Telecom Tower Analytics (TRU × Amplitel):</span>
+                                            Health index creation, corrosion-zone overlays, maintenance NLP (IssueDescription ↔ WorkRequired),
+                                            Excel-to-KML pipelines for UNSW Data Arena; QGIS visual storytelling.
+                                        </li>
+                                        <li class="activity-lemos">
+                                            <span class="activity-names">Document Sage (LLM FAQ):</span>
+                                            Retrieval-augmented Q&A interface; multi-session chat UI; local hosting and pipeline caching.
+                                        </li>
+                                        <li class="activity-lemos">
+                                            <span class="activity-names">Disaster Assist Drone:</span>
+                                            Segmentation-guided interface and GUI for rapid triage; computer-vision pipelines demoed at showcases.
+                                        </li>
+                                        <li class="activity-lemos">
+                                            <span class="activity-names">Handwriting Recognition & Adversarial Analysis:</span>
+                                            Classic CV + deep learning comparisons; robustness observations and dataset curation.
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- (Optional) Certifications list remains commented, per original template -->
+            <!--
+            <h5 class="my-5"><b>__ Certifications _____________________</b></h5>
             <ul>
-                <li>RCR</li>
-                <li>Courseera</li>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul> -->
-
+                <li>Hugging Face CV Course</li>
+                <li>Microsoft Reactor AI Workshops</li>
+                <li>System Resilience Workshop (UTS)</li>
+                <li>Microsoft Summer Bootcamp 2025</li>
+                <li>SAS Viya Coursework (UTS)</li>
+            </ul>
+            -->
 
         </div>
 
@@ -210,7 +284,6 @@
             <footer-component-lemos></footer-component-lemos>
         </div>
     </div>
-
 
     <!-- jQuery and Bootstrap Bundle (includes Popper) -->
     <script src="/assets/vendor/jquery/jquery.slim.min.js"></script>
@@ -223,7 +296,5 @@
     <script src="/components/footer-lemos.js" type="text/javascript"></script>
     <script src="/assets/js/fontawesome651all.min.js" type="text/javascript" defer></script>
 
-
 </body>
-
 </html>

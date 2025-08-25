@@ -16,6 +16,16 @@
     /* https://colorhunt.co/palette/f9f7f7dbe2ef3f72af112d4e */
   }
   
+  .tag {
+  display: inline-block;
+  background-color: #e0e0e0;
+  color: #333;
+  font-size: 0.75rem;
+  padding: 2px 6px;
+  margin: 2px;
+  border-radius: 4px;
+}
+
   
   h4,h5, p{
       font-family: 'Ubuntu Sans', sans-serif;

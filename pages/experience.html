@@ -3,184 +3,389 @@
 
 <head>
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico" />
-
-    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="/assets/vendor/bootstrap/css/bootstrap.min.css">
     <link href="/assets/css/main.css" rel="stylesheet">
     <link href="/assets/css/experience.css" rel="stylesheet">
     <link rel="stylesheet" href="/assets/css/fontawesome651.all.min.css">
-
-    <!-- Google Fonts CSS -->
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap"
-        rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <header-component></header-component>
+<header-component></header-component>
 
+<div id="page-container">
+    <div class="container mt-4">
+        <h5><b>__ Professional Experiences _____</b></h5>
 
+        <!-- UTS Experience -->
+        <div class="mt-3 card">
+            <div class="card-body">
+                <div class="row mt-2 mt-md-0">
+                    <div class="col-5 col-md-2">
+                        <img class="card-img-top" src="/assets/img/experience/logo-university.png" alt="UTS Logo">
+                    </div>
+                    <div class="col-7 col-md-10">
+                        <h4 class="card-title mb-0 responsive-text"><a class="exp-affiliation" href="https://www.uts.edu.au" target="_blank">University of Technology Sydney (UTS)</a></h4>
+                        <h6 class="card-subtitle- mb-0 responsive-text">Faculty of Engineering and IT</h6>
+                        <h3 class="designation-lemos mt-1">AI Research Associate & Honours Student</h3>
+                        <h6 class="small-lemos mt-1">(Feb 2024 – Present)</h6>
+                        <p class="card-text mt-2 mb-2 text-justify small text-truncate">Conducted extensive work across Australian Telecommunication Projects & Medical Projects</p>
+                        <h5 class="ml-0 mb-0">
+                            <button class="btn btn-blue py-0" type="button" data-toggle="collapse" data-target="#collapseContent-uts" aria-expanded="false" aria-controls="collapseContent-uts">Read more...</button>
+                        </h5>
+                    </div>
+                    <div id="collapseContent-uts" class="collapse">
+                        <div class="card-body mb-0 pt-4 pb-0">
+                            <ul class="mb-0">
+                                <ul>
 
-    <div id="page-container">
-        <div class="container mt-4">
-            <h5><b>__ Professional Experiences _____</b></h5>
+  <!-- RESEARCH & MODELING -->
 
-            <!-- experience 1 -->
-            <div class="mt-3 card">
-                <div class="card-body">
-                    <div class="row mt-2 mt-md-0">
-                        <div class="col-5 col-md-2">
-                            <img class="card-img-top" src="/assets/img/experience/logo-university.png" alt="Card image">
+  <li>
+    <strong>Research on Diabetic Retinopathy (DR) Detection:</strong><br>
+    Led research into Zero-Shot Learning and Super-Resolution with lesion-aware pipelines across APTOS 2019, EyePACS, and Messidor-2 datasets.<br>
+    <span class="tag">CLIP</span> <span class="tag">SwinIR</span> <span class="tag">PyTorch</span> <span class="tag">TensorFlow</span>
+  </li>
 
-                        </div>
-                        <div class="col-7 col-md-10">
-                            <h4 class="card-title mb-0 responsive-text"><a class="exp-affiliation"
-                                    href="" target="_blank">Educational Institution</a> </h4>
-                            <h6 class="card-subtitle- mb-0 responsive-text" style="font-size: large;"><a
-                                    class="exp-affiliation" href="" target="_blank">Academic
-                                    Department</a></h6>
-                            <h3 class="designation-lemos mt-1">Academic Position</h3>
-                            <h6 class="small-lemos mt-1">(Present - Start_Month Year)</h6>
-                            <h5 class="ml-0 mb-0">
-                                <button class="btn btn-blue py-0" type="button" data-toggle="collapse"
-                                    data-target="#collapseContent-1" aria-expanded="true"
-                                    aria-controls="collapseContent-1">
-                                    Read more...
-                                </button>
-                            </h5>
-                        </div>
-                        <div id="collapseContent-1" class="collapse">
-                            <div class="card-body  mb-0 pt-4 pb-0">
-                                <!-- Your expandable content goes here -->
-                                <ul class="mb-0">
-                                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed egestas elit sed
-                                        nibh congue, eu euismod orci laoreet. Vestibulum ut lorem eget enim laoreet
-                                        suscipit ut eget sem.</li>
-                                    <ul>
-                                        <li>CS1xx : Course 1 (Semester)</li>
-                                        <li>CS2xx : Course 2 (Semester)</li>
-                                        <li>CS4xx : Course 3 (Semester)</li>
-                                    </ul>
-                                    <li>Orci varius natoque penatibus et magnis dis parturient montes, nascetur
-                                        ridiculus mus. Quisque vehicula nisl at ante maximus, ac pretium nisl varius.
-                                    </li>
-                                </ul>
-                            </div>
+  <li>
+    <strong>LLM-Integrated Summarisation Pipeline:</strong><br>
+    Designed and deployed an end-to-end pipeline for document chunking, NER, topic clustering, and report summarisation using LLMs.<br>
+    <span class="tag">LLMs</span> <span class="tag">Transformers</span> <span class="tag">TextRank</span> <span class="tag">Spacy</span>
+  </li>
 
+  <!-- TOOLING & APP DEVELOPMENT -->
+  <li>
+    <strong>Python Tool Development:</strong><br>
+    Built over 70 Python scripts and 20+ modular tools for document processing, geotagging, summarisation, and ranking systems.<br>
+    <span class="tag">Tkinter</span> <span class="tag">Streamlit</span> <span class="tag">OCR</span> <span class="tag">GUI</span>
+  </li>
+
+  <li>
+    <strong>Interactive Applications:</strong><br>
+    Developed 7 Tkinter GUI apps for structural risk analysis, damage classification, feedback capture, and document status labelling.<br>
+    <span class="tag">Tkinter</span> <span class="tag">Matplotlib</span> <span class="tag">NetworkX</span>
+  </li>
+
+  <li>
+    <strong>Graph Theory-Based Comparator:</strong><br>
+    Created an adaptive comparator tool using transitive inference and graph analysis to reduce 10k+ comparisons to ~300.<br>
+    <span class="tag">Graph Theory</span> <span class="tag">Transitive Inference</span> <span class="tag">Optimisation</span>
+  </li>
+
+  <!-- INFRASTRUCTURE ANALYSIS -->
+  <li>
+    <strong>Telecom Infrastructure Mapping:</strong><br>
+    Engineered geospatial visualisation tools using QGIS and KML for Amplitel’s nationwide tower maintenance and risk data.<br>
+    <span class="tag">QGIS</span> <span class="tag">KML</span> <span class="tag">Excel</span>
+  </li>
+
+  <li>
+    <strong>Data Creation & Analysis:</strong><br>
+    Created over 20 synthetic and derived datasets for structural risk, damage severity, and national asset health tracking.<br>
+    <span class="tag">Pandas</span> <span class="tag">NumPy</span> <span class="tag">ETL</span>
+  </li>
+
+  <li>
+    <strong>Dashboard & Pipeline Reporting:</strong><br>
+    Built stakeholder-facing dashboards with Streamlit and Google Colab showcasing asset risk scores, coverage maps, and tool outputs.<br>
+    <span class="tag">Streamlit</span> <span class="tag">Google Colab</span> <span class="tag">Data Visualisation</span>
+  </li>
+
+  <!-- DEPLOYMENT & TEACHING -->
+  <li>
+    <strong>LLM Adoption Pipeline:</strong><br>
+    Integrated LLM workflows into existing systems with intuitive UI/UX and Excel-based outputs for real-world stakeholder usage.<br>
+    <span class="tag">OpenAI</span> <span class="tag">Automation</span> <span class="tag">Excel Integration</span>
+  </li>
+
+  <li>
+    <strong>Workshops & Knowledge Sharing:</strong><br>
+    Delivered 10+ workshops on AI deployment, prompt engineering, and safe generative AI use at UTS and external organisations.<br>
+    <span class="tag">AI Workshops</span> <span class="tag">Education</span> <span class="tag">UTS</span>
+  </li>
+
+  <!-- INFRASTRUCTURE -->
+  <li>
+    <strong>High Performance Computing:</strong><br>
+    Leveraged UTS IHPC cluster for training image models, running batch experiments, and accelerating ZSL-SR benchmarks.<br>
+    <span class="tag">UTS IHPC</span> <span class="tag">Parallel Processing</span> <span class="tag">Deep Learning</span>
+  </li>
+
+</ul>
+
+                            </ul>
                         </div>
                     </div>
                 </div>
             </div>
-
-            <!-- experience 3 -->
-            <div class="mt-3 card">
-                <div class="card-body">
-                    <div class="row mt-2 mt-md-0">
-                        <div class="col-5 col-md-2">
-                            <img class="card-img-top" src="/assets/img/experience/logo025.webp" alt="Card image">
-
-                        </div>
-                        <div class="col-7 col-md-10">
-                            <h4 class="card-title mb-0 responsive-text"><a class="exp-affiliation"
-                                    href="" target="_blank">Company</a> </h4>
-                            <h3 class="designation-lemos mt-1">Job Title</h3>
-                            <h6 class="small-lemos mt-1">(end_Month year - start_Month year)</h6>
-                            <p class="card-text mt-2 mb-2 text-justify small text-truncate">single line description</p>
-                            <h5 class="ml-0 mb-0">
-                                <button class="btn btn-blue py-0" type="button" data-toggle="collapse"
-                                    data-target="#collapseContent-3" aria-expanded="true"
-                                    aria-controls="collapseContent-3">
-                                    Read more...
-                                </button>
-                            </h5>
-                        </div>
-                        <div id="collapseContent-3" class="collapse">
-                            <div class="card-body mb-0 pt-4 pb-0">
-                                <!-- Your expandable content goes here -->
-
-                                <ul class="mb-0 text-justify">
-                                    <li>Quisque eu ipsum mattis, suscipit diam ut, cursus nisl. Nullam nec dui a dui
-                                        bibendum egestas. Sed vestibulum at ipsum sed semper. Morbi luctus eget erat
-                                        quis pulvinar.</li>
-                                    <li><b>Projects Contributed: </b><span style="font-family: Consolas;">
-                                            Project_Name_1, Project_Name_1, Project_Name_2, Project_Name_3,
-                                            Project_Name_4, Project_Name_5</span></li>
-                                </ul>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
-            <h5 class="mt-5"><b>__ Volulnteering Experiences _____</b></h5>
-
-
-            <!-- experience 8 -->
-            <div class="mt-3 card">
-                <div class="card-body">
-                    <div class="row mt-2 mt-md-0">
-                        <div class="col-5 col-md-2">
-                            <img class="card-img-top" src="/assets/img/experience/logo-university.png" alt="Card image">
-
-                        </div>
-                        <div class="col-7 col-md-10">
-                            <h4 class="card-title mb-0 responsive-text"><a class="exp-affiliation"
-                                    href="" target="_blank">Institution/ Affiliation</a> </h4>
-                            <h6 class="card-subtitle- mb-0 responsive-text"><a class="exp-affiliation"
-                                    href="" target="_blank">Department</a></h6>
-                            <h3 class="designation-lemos mt-1">Role</h3>
-                            <h6 class="small-lemos mt-1">(January 2020)</h6>
-                            <p class="card-text mt-2 mb-2 text-justify small text-truncate">single line description</p>
-                            <h5 class="ml-0 mb-2">
-                                <button class="btn btn-blue py-0" type="button" data-toggle="collapse"
-                                    data-target="#collapseContent-8" aria-expanded="true"
-                                    aria-controls="collapseContent-8">
-                                    Read more...
-                                </button>
-                            </h5>
-                        </div>
-                        <div id="collapseContent-8" class="collapse">
-                            <div class="card-body mb-0 pt-4 pb-0 text-justify">
-                                <!-- Your expandable content goes here -->
-                                Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;
-                                Maecenas lacinia ipsum est, a scelerisque nulla posuere et. Pellentesque elementum velit
-                                at quam vestibulum mollis. Nullam in tellus ac ligula posuere mattis sed id felis. Ut
-                                ligula diam, accumsan non pharetra eu, ornare quis ante.
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
         </div>
 
-        <div id="footer">
-            <footer-component></footer-component>
-            <footer-component-lemos></footer-component-lemos>
+        <!-- Contract Experience -->
+        <div class="mt-3 card">
+            <div class="card-body">
+                <div class="row mt-2 mt-md-0">
+                    <div class="col-5 col-md-2">
+                        <img class="card-img-top" src="/assets/img/experience/logo025.webp" alt="JJAM Logo">
+                    </div>
+                    <div class="col-7 col-md-10">
+                        <h4 class="card-title mb-0 responsive-text">Contractor</h4>
+                        <h3 class="designation-lemos mt-1">Software Engineer and R&D</h3>
+                        <h6 class="small-lemos mt-1">(Jan 2024 – Jun 2024)</h6>
+                        <p class="card-text mt-2 mb-2 text-justify small text-truncate">Assisted on a series of startup projects</p>
+                        <h5 class="ml-0 mb-0">
+                            <button class="btn btn-blue py-0" type="button" data-toggle="collapse" data-target="#collapseContent-jjam" aria-expanded="false" aria-controls="collapseContent-jjam">Read more...</button>
+                        </h5>
+                    </div>
+                    <div id="collapseContent-jjam" class="collapse">
+                        <div class="card-body mb-0 pt-4 pb-0">
+                            <ul class="mb-0">
+                                <ul>
+
+  <!-- AI + LLM SYSTEM INTEGRATION -->
+  <li>
+    <strong>LLM-Driven Architecture:</strong><br>
+    Spearheaded the integration of open-source LLMs (e.g., HappyFace, LLaMA) into early-stage platforms to automate admin queries, onboard workflows, and generate dynamic user insights.<br>
+    <span class="tag">LLMs</span> <span class="tag">HappyFace</span> <span class="tag">LangChain</span> <span class="tag">OpenAI API</span>
+  </li>
+
+  <li>
+    <strong>GenAI Product Embedding:</strong><br>
+    Designed internal toolchains using GenAI to reduce customer support overhead by 60%, including context-aware assistants, smart email classification, and generative template builders.<br>
+    <span class="tag">GenAI</span> <span class="tag">Prompt Engineering</span> <span class="tag">System Design</span>
+  </li>
+
+  <!-- BACKEND & SYSTEMS ENGINEERING -->
+  <li>
+    <strong>Microservice Ecosystem:</strong><br>
+    Developed modular FastAPI services powering authentication, payments, and asynchronous job queues across multi-tenant systems.<br>
+    <span class="tag">FastAPI</span> <span class="tag">Python</span> <span class="tag">REST</span> <span class="tag">Celery</span>
+  </li>
+
+  <li>
+    <strong>Async Query Optimisation:</strong><br>
+    Rebuilt analytics dashboards using async PostgreSQL and SQLAlchemy, enabling concurrent data refresh and cutting dashboard latency by 45%.<br>
+    <span class="tag">PostgreSQL</span> <span class="tag">AsyncIO</span> <span class="tag">SQLAlchemy</span>
+  </li>
+
+  <!-- DATA ENGINEERING + ANALYTICS -->
+  <li>
+    <strong>End-to-End Data Pipeline Development:</strong><br>
+    Engineered ETL flows for transactional and behavioural data streams. Implemented data validation, warehousing, and dashboard connectors with downstream ML use cases in mind.<br>
+    <span class="tag">ETL</span> <span class="tag">Pandas</span> <span class="tag">Plotly</span> <span class="tag">Airflow (local)</span>
+  </li>
+
+  <!-- TOOLING + DEVOPS -->
+  <li>
+    <strong>CI/CD & Automation Hygiene:</strong><br>
+    Built robust pipelines with GitHub Actions and Docker-based deploys. Enforced black formatting, coverage thresholds, and fail-fast testing strategies.<br>
+    <span class="tag">Docker</span> <span class="tag">GitHub Actions</span> <span class="tag">pytest</span> <span class="tag">Black</span>
+  </li>
+
+  <!-- UI/UX CONTRIBUTIONS -->
+  <li>
+    <strong>Frontend Integration & Delivery:</strong><br>
+    Collaborated with frontend developers to deliver seamless API consumption layers and supported full-stack debugging across HTML/CSS/JS dashboards.<br>
+    <span class="tag">HTML</span> <span class="tag">CSS</span> <span class="tag">JavaScript</span> <span class="tag">REST</span>
+  </li>
+
+</ul>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
+
+        <h5 class="mt-5"><b>__ Workshops, Hackathons & Technical Contributions _____</b></h5>
+
+        <!-- Chaos1 / Showcase -->
+        <div class="mt-3 card">
+            <div class="card-body">
+                <div class="row mt-2 mt-md-0">
+                    <div class="col-5 col-md-2">
+                        <img class="card-img-top" src="/assets/img/experience/logo-hackathon.png" alt="Hackathon">
+                    </div>
+                    <div class="col-7 col-md-10">
+                        <h4 class="card-title mb-0 responsive-text">Workshops, Hackathons, and Technical Projects</h4>
+                        <h3 class="designation-lemos mt-1">Hackathon Winner & Industry Awardee</h3>
+                        <h6 class="small-lemos mt-1">(2023 – 2025)</h6>
+                        <p class="card-text mt-2 mb-2 text-justify small text-truncate">Built award-winning pipelines in disaster logistics, drone AI, and healthcare analytics.</p>
+                        <h5 class="ml-0 mb-2">
+                            <button class="btn btn-blue py-0" type="button" data-toggle="collapse" data-target="#collapseContent-chaos1" aria-expanded="false" aria-controls="collapseContent-chaos1">Read more...</button>
+                        </h5>
+                    </div>
+                    <div id="collapseContent-chaos1" class="collapse">
+                        <div class="card-body mb-0 pt-4 pb-0 text-justify">
+                            <ul>
+                                <!-- CHAOS1 / UTS AI SHOWCASE EXPANDED -->
+<li>
+  <strong>Deployable Multi-Agent Reasoning Architecture:</strong><br>
+  Developed a fully modular AI system integrating Retrieval-Augmented Generation (RAG), master-subagent routing logic, and quantised models capable of operating on low-resource, portable devices. Designed to adapt to field operations across defence and civilian response use cases.
+  <br>
+  <span class="tag">RAG</span> <span class="tag">Multi-Agent Systems</span> <span class="tag">Quantisation</span> <span class="tag">Device Interoperability</span>
+</li>
+
+<li>
+  <strong>Prompt Orchestration via Agent Hierarchies:</strong><br>
+  Implemented a central master-agent to evaluate user input, determine intent, and dispatch it to specialised sub-agents (e.g., medical, navigation, policy compliance). Each agent handled domain-specific retrieval and validation, enabling robust, layered control over outputs.
+  <br>
+  <span class="tag">Agent Routing</span> <span class="tag">Prompt Engineering</span> <span class="tag">Task Decoupling</span> <span class="tag">Information Flow Control</span>
+</li>
+
+<li>
+  <strong>Optimised for Defence-Grade Deployment:</strong><br>
+  Transformed the system into a defence-capable architecture with quantised neural components for edge inference. Enabled isolated execution environments for field usage with minimal power requirements and no need for persistent cloud access.
+  <br>
+  <span class="tag">Edge AI</span> <span class="tag">Quantised Models</span> <span class="tag">Air-Gapped Deployment</span> <span class="tag">Zero-Dependency Runtime</span>
+</li>
+
+<li>
+  <strong>Emergency Response & Triage Application:</strong><br>
+  Leveraged drone-captured imagery and voice commands to triage casualties in simulated environments. The system classified urgency, mapped threats using image-grounded agents, and generated prioritised response plans for on-ground personnel.
+  <br>
+  <span class="tag">Drone Vision</span> <span class="tag">Image-Guided LLMs</span> <span class="tag">Triage Optimisation</span> <span class="tag">Response Generation</span>
+</li>
+
+<li>
+  <strong>Low-Latency Agent Memory Loop:</strong><br>
+  Built a memory pipeline enabling agents to cache prior decisions and learn from follow-up feedback during multi-stage queries. Improved reasoning accuracy and maintained contextual consistency across long-form interactions.
+  <br>
+  <span class="tag">LLM Memory</span> <span class="tag">Loopback Feedback</span> <span class="tag">Context Continuity</span>
+</li>
+
+<li>
+  <strong>Healthcare & Critical Infrastructure Use Cases:</strong><br>
+  Adapted the architecture to support medical diagnostic flows and equipment fault triage in hospitals and towers. Used voice + visual prompts to simulate technician dialogue and respond with optimal maintenance or clinical action paths.
+  <br>
+  <span class="tag">Healthcare AI</span> <span class="tag">Risk Prioritisation</span> <span class="tag">Voice Interfaces</span> <span class="tag">Failure Triage</span>
+</li>
+
+<li>
+  <strong>AI Workshops & Public Showcases:</strong><br>
+  Ran over a dozen workshops across AI safety, web tooling, full-stack deployments, and real-world applications of large models. Delivered live system walkthroughs and mentored students, developers, and industry participants through prompt logic, retrieval chains, and deployment.
+  <br>
+  <span class="tag">AI Workshops</span> <span class="tag">LLM Tooling</span> <span class="tag">Hands-on Facilitation</span> <span class="tag">Community Outreach</span>
+</li>
+
+<li>
+  <strong>Dashboard Integration with Multimodal I/O:</strong><br>
+  Developed an interactive front-end for the architecture supporting text, audio, and image inputs, and enabled automatic summarisation and report generation for field operations or medical reviews.
+  <br>
+  <span class="tag">Multimodal</span> <span class="tag">Streamlit</span> <span class="tag">Text-to-Speech</span> <span class="tag">Visual Feedback</span>
+</li>
+
+<li>
+  <strong>Honours-Level Deployment Capstone:</strong><br>
+  This system became a flagship for Honours-level AI research at UTS and was repeatedly demonstrated during campus and external events. Showcased excellence in combining research, engineering, and user-facing interaction under real constraints.
+  <br>
+  <span class="tag">Honours Research</span> <span class="tag">Showcase</span> <span class="tag">Research-to-Production</span>
+</li>
+
+<li>
+  <strong>Dynamic Fallback Safety Checks:</strong><br>
+  Engineered a validation layer that allows outputs to be checked across independent agents for consistency, hallucination filtering, and safety criteria before responding to the user — especially critical for high-risk domains like triage or diagnosis.
+  <br>
+  <span class="tag">Output Validation</span> <span class="tag">Safety Checks</span> <span class="tag">LLM Filtering</span>
+</li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h5 class="mt-5"><b>__ Volunteering & Community _____</b></h5>
+
+        <!-- UTS Peer Coach -->
+        <div class="mt-3 card">
+            <div class="card-body">
+                <div class="row mt-2 mt-md-0">
+                    <div class="col-5 col-md-2">
+                        <img class="card-img-top" src="/assets/img/experience/logo-university.png" alt="UTS Logo">
+                    </div>
+                    <div class="col-7 col-md-10">
+                        <h4 class="card-title mb-0 responsive-text">University of Technology Sydney</h4>
+                        <h6 class="card-subtitle- mb-0 responsive-text">FEIT & FASS</h6>
+                        <h3 class="designation-lemos mt-1">Academic Writing Coach & Peer Reviewer</h3>
+                        <h6 class="small-lemos mt-1">(Feb 2023 – Nov 2024)</h6>
+                        <p class="card-text mt-2 mb-2 text-justify small text-truncate">Supported student research and documentation across AI and Data projects.</p>
+                        <h5 class="ml-0 mb-2">
+                            <button class="btn btn-blue py-0" type="button" data-toggle="collapse" data-target="#collapseContent-peercoach" aria-expanded="false" aria-controls="collapseContent-peercoach">Read more...</button>
+                        </h5>
+                    </div>
+                    <div id="collapseContent-peercoach" class="collapse">
+                        <div class="card-body mb-0 pt-4 pb-0 text-justify">
+                            <ul>
+                                <li>
+  <strong>Academic Writing Coach & Peer Reviewer (UTS):</strong><br>
+  Provided tailored support for over 15 student research projects across AI, data science, and digital media. Helped students articulate technical insights, structure complex methodologies, and refine academic tone for capstone, Honours, and thesis-level writing.
+  <br>
+  <span class="tag">Research Mentorship</span> <span class="tag">Academic Writing</span> <span class="tag">Capstone Support</span> <span class="tag">Thesis Preparation</span>
+</li>
+
+<li>
+  <strong>Cross-Faculty Reviewer (FEIT & FASS):</strong><br>
+  Supported interdisciplinary students across Engineering (FEIT) and Arts & Social Sciences (FASS), offering feedback that bridged technical and human-centred perspectives. Assisted in aligning ethical AI considerations with experimental work and academic integrity standards.
+  <br>
+  <span class="tag">Ethics in AI</span> <span class="tag">Technical-Humanities Collaboration</span> <span class="tag">Critical Thinking</span> <span class="tag">Academic Integrity</span>
+</li>
+
+<li>
+  <strong>LaTeX & Report Structuring Coach:</strong><br>
+  Trained students to use LaTeX for reproducible documentation, including mathematical notation, figure/table referencing, and bibliography management. Created reusable templates for academic report sections and ensured compliance with university style guides.
+  <br>
+  <span class="tag">LaTeX Formatting</span> <span class="tag">Template Development</span> <span class="tag">Bibliographic Management</span> <span class="tag">Academic Style Guides</span>
+</li>
+
+<li>
+  <strong>Evaluator of AI Methodologies & Clarity:</strong><br>
+  Reviewed AI-driven projects with emphasis on experimental validity, clarity of evaluation metrics, and reproducibility of model performance. Provided guidance on reporting ablation studies, cross-validation results, and impact of dataset splits.
+  <br>
+  <span class="tag">Model Evaluation</span> <span class="tag">Reproducibility</span> <span class="tag">Experimental Design</span> <span class="tag">Ablation Studies</span>
+</li>
+
+<li>
+  <strong>Rubric & Feedback Framework Developer:</strong><br>
+  Designed structured grading rubrics and feedback forms tailored for AI and data science reporting. These tools supported clearer benchmarking, alignment with learning outcomes, and enhanced marker consistency across large cohorts.
+  <br>
+  <span class="tag">Rubric Design</span> <span class="tag">Feedback Automation</span> <span class="tag">Learning Outcomes</span> <span class="tag">Assessment Consistency</span>
+</li>
+
+<li>
+  <strong>Honours Pipeline Contributor:</strong><br>
+  Acted as an informal pipeline mentor for Honours students, guiding research topic framing, dataset documentation, and presentation structuring ahead of faculty showcases and poster sessions.
+  <br>
+  <span class="tag">Honours Support</span> <span class="tag">Poster Sessions</span> <span class="tag">Dataset Curation</span> <span class="tag">Research Framing</span>
+</li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </div>
 
+    <div id="footer">
+        <footer-component></footer-component>
+        <footer-component-lemos></footer-component-lemos>
+    </div>
+</div>
 
-    <!-- jQuery and Bootstrap Bundle (includes Popper) -->
-    <script src="/assets/vendor/jquery/jquery.slim.min.js"></script>
-    <script src="/assets/vendor/bootstrap/js/popper.min.js"></script>
-    <script src="/assets/vendor/bootstrap/js/bootstrap.min.js"></script>
-
-    <script src="/assets/js/main.js"></script>
-    <script src="/components/header.js" type="text/javascript" defer></script>
-    <script src="/components/footer.js" type="text/javascript"></script>
-    <script src="/components/footer-lemos.js" type="text/javascript"></script>
-    <script src="/assets/js/fontawesome651all.min.js" type="text/javascript" defer></script>
-
+<script src="/assets/vendor/jquery/jquery.slim.min.js"></script>
+<script src="/assets/vendor/bootstrap/js/popper.min.js"></script>
+<script src="/assets/vendor/bootstrap/js/bootstrap.min.js"></script>
+<script src="/assets/js/main.js"></script>
+<script src="/components/header.js" type="text/javascript" defer></script>
+<script src="/components/footer.js" type="text/javascript"></script>
+<script src="/components/footer-lemos.js" type="text/javascript"></script>
+<script src="/assets/js/fontawesome651all.min.js" type="text/javascript" defer></script>
 
 </body>
-
 </html>

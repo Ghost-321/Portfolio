@@ -26,5 +26,3 @@ It showcases my background in **AI/ML research, applied data science, software e
 - **Deployment:** GitHub Pages  
 
 ---
-
-## 📂 Structure

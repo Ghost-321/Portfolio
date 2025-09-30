@@ -11,7 +11,7 @@ class Header extends HTMLElement {
         <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="navbar-collapse collapse" id="navbarCollapse" style="">
+        <div class="navbar-collapse collapse" id="navbarCollapse">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item mr-2">
               <a class="nav-link" href="/Portfolio/index.html">Home</a>
@@ -30,7 +30,7 @@ class Header extends HTMLElement {
             </li>
             <li class="nav-item mr-2">
               <a class="nav-link" href="/Portfolio/pages/projects.html">Projects</a>
-            </li> 
+            </li>
           </ul>
         </div>
         </nav>

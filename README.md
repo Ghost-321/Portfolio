@@ -3,7 +3,7 @@
 This repository contains the source code for my **personal academic and professional portfolio website**.  
 It showcases my background in **AI/ML research, applied data science, software engineering, and teaching**.
 
-🔗 **Live Site:** [Visit Portfolio](https://your-portfolio-link.com)  
+🔗 **Live Site:** [Visit Portfolio]([https://your-portfolio-link.com](https://ghost-321.github.io/Portfolio/index.html))  
 📍 Built with HTML, CSS, Bootstrap, and custom JavaScript.
 
 ---
